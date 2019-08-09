@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Personal Information Filling</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<style>
+body{background-color:rgb(162, 202, 255)}
+.inputs{color: black;
+font-size: 22px;
+text-align: center;
+font-family: cursive;}
+#p1{font-size: 22px;
+color: black;
+text-align: center;
+font-family: cursive;}
+.center{text-align: center;}
+.dropdown{text-align: center;}
+#p2{color: black;
+text-align: center;
+font-size: 22px;
+font-family: cursive;}
+</style>
+<body>
+<br><br><br><br>
+<div class = "center"><p><a href = "homepage.html"><img src = "homepage.jpeg" width = "50" height = "50"></a></p></div>
+<p id = "p1"><b>Before starting please fill some personal information:</b><br></p>
+<div class = "inputs">
+<input type ="text" value = "Firstname"><br>
+<input type= "text" value = "Lastname"><br><br><b>Gender:</b><br>
+<input type = "radio" name = "gender" value = "Male"><b>Male</b><br>
+<input type = "radio" name = "gender" value = "Female"><b>Female</b><br><br>
+<input type = "text" value = "Age"><br><br>
+<p id = "p2"><b>Please choose from the list below the topic you are intersted in.</b><br></p>
+<div class="dropdown">
+<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+<b>Our Services</b>
+</button>
+<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+<a class="dropdown-item" href="physics.html"><b>>Physics</b></a>
+<a class="dropdown-item" href="politics.html"><b>>Politics</b></a>
+<a class="dropdown-item" href="philosophy.html"><b>>Philosophy</b></a>
+</div>
+</div>
+</body>
+</html>
